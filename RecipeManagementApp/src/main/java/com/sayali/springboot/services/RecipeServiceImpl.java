@@ -85,9 +85,9 @@ public class RecipeServiceImpl implements RecipeService {
 		Assert.notNull(id, "ID is null");
 		System.out.println("Here");
 		
-		Optional<Recipe> deleteRecipe = repo.findById(id);
+		Recipe deleteRecipe = repo.findById(id).orElse(null);
 		
-		if(!deleteRecipe.isEmpty()) {
+		if(null!=deleteRecipe) {
 		repo.deleteById(id);
 		return "Deleted ID is " + id;
 		} else {
