@@ -10,7 +10,7 @@ Database selection thoughts : For the given use case I have used H2 database as 
 
 You can access and clone the code repository using the git command under a directory: git clone https://github.com/sayalishrikhande/RecipeManagementApp.git
 
-Once the application starts up successfully you can access the respective below resources:
+Once the application starts up successfully you can access the below mentioned resources:
 
 To check the health of the application - http://localhost:8080/actuator/health
 Swagger UI for API documentation & endpoints http://localhost:8080/swagger-ui.html
