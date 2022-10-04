@@ -16,7 +16,7 @@ To check the health of the application - http://localhost:8080/actuator/health
 Swagger UI for API documentation & endpoints http://localhost:8080/swagger-ui.html
 REST APIs: The REST APIs will return proper response code in the case of success or errorneous cases. Following are the HTTP response codes returned from the APIs. 200 - OK 201 - CREATED 204 - NO_CONTENT 400 - BAD_REQUEST 404 - NOT_FOUND 500 - INTERNAL_SERVER_ERROR
 
-Swagger UI Integrated: Url to access - http://localhost:8080/api/swagger-ui.html
+Swagger UI Integrated: Url to access - http://localhost:8080/swagger-ui.html
 
 Few of the enhancement thoughts:
 User management
