@@ -37,7 +37,7 @@ public class SecurityConfigurer extends WebSecurityConfigurerAdapter {
 				.antMatchers("/v1/swagger-ui/index.html").permitAll().antMatchers("/actuator/health").permitAll()
 				.antMatchers("/actuator/info").permitAll().antMatchers("**/**").permitAll().antMatchers("/actuator")
 				.permitAll().antMatchers("/docs-ui.html").permitAll()
-				.antMatchers("/csrf", "/service-status/v1/task/status", "/swagger-ui.html","/api-docs/*",
+				.antMatchers("/csrf", "/service-status/v1/task/status", "/swagger-ui.html","/api-docs/*","/v1/api-docs/*",
 						"/*.html", "/*.js", "/favicon.ico", "/**/*.html", "/**/*.css", "/**/*.png", "/webjars/**",
 						"/configuration/**", "/v2/**", "/swagger-resources/**", "/**/*.js","/**/*.css.map","/**/*.js.map")
 				.permitAll().antMatchers("**/v1/recipes/**").permitAll().antMatchers("/api-docs").permitAll().anyRequest().authenticated().and().sessionManagement()
