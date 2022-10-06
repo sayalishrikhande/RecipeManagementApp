@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.sayali.springboot.RecipeManagementAppApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.436 s - in com.sayali.springboot.RecipeManagementAppApplicationTests
